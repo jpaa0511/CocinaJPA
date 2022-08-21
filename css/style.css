@@ -36,7 +36,7 @@ article{
   width: 80%;
   height: 0 auto;
   float: left;
-  margin: 15px auto;
+  margin: 1px auto;
   padding: 0 auto;
   
 }
@@ -61,8 +61,8 @@ section p{
 }
 
 section img{
-  width: 100%;
-  height: auto;
+  width: 80%;
+  height: 0 auto;
 }
 
 aside {
@@ -106,5 +106,52 @@ aside {
 }
 
 footer{
-  float:right;
+  height: 0 auto;
+  width: 0 auto;
+  float: inline-end;
 }
+
+.caja_quienes{
+  float: left;
+  margin: 15px;
+  padding: 25px ;
+  width: 40%;
+  height: 0 auto;
+  display: block;
+}
+
+.contacto{
+  float: right;
+  margin: 15px;
+  padding: 25px ;
+  width: 40%;
+  height: 0 auto;
+  display: block;
+}
+
+.contacto ul {
+  list-style: square;
+  text-align: left;
+  padding: 0 auto;
+  margin-left: 30%;
+  color: black;
+}
+
+.contacto a {
+  color: black;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contacto a:hover {
+  display: block;
+  text-decoration: underline;
+}
+
+.contacto h1{
+margin-left: 30%;
+}
+
+
