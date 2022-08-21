@@ -60,11 +60,16 @@ section p{
   width: 90%;
 }
 
+section img{
+  width: 100%;
+  height: auto;
+}
+
 aside {
   width: 20%;
   background-color: #ff7b00;
   height: 0 auto;
-  margin: 15px auto;
+  margin-top: 35px;
   padding: 0 auto;
   float: right;
 }
