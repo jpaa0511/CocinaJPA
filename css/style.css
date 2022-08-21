@@ -1,15 +1,10 @@
-* {
-  font-size: 24px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 body {
   background: #dbe4e4;
   margin: 0 auto;
   padding: 0 auto;
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 
 .menu {
   background-color: #ff7b00;
@@ -45,7 +40,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-section{
+section {
   width: 65%;
   height: 400px;
   float: right;
@@ -53,7 +48,7 @@ section{
   padding: 0 auto;
 }
 
-aside{
+aside {
   width: 30%;
   background-color: #ff7b00;
   height: 400px;
@@ -61,10 +56,37 @@ aside{
   padding: 0 auto;
 }
 
-.menu-navegacion{
-  
-
-
+.menu-navegacion h1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
+.menu-navegacion {
+  background-color: #ff7b00;
+}
 
+.menu-navegacion ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-navegacion li {
+  display: inline-block;
+  display: block;
+}
+
+.menu-navegacion a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu-navegacion a:hover {
+  background-color: deepskyblue;
+  display: block;
+  text-decoration: underline;
+}
