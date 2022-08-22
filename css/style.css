@@ -74,7 +74,7 @@ aside {
   float: right;
 }
 
-.menu-navegacion h1 {
+.menu-navegacion h2 {
   text-align: center;
   padding: 0 auto;
   margin: 0 auto;
@@ -97,7 +97,7 @@ aside {
   display: block;
   padding: 15px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .menu-navegacion a:hover {
@@ -142,7 +142,7 @@ footer{
   display: block;
   padding: 15px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .contacto a:hover {
@@ -152,6 +152,12 @@ footer{
 
 .contacto h1{
 margin-left: 30%;
+}
+
+.pasos li {
+  color: black;
+  padding: 15px;
+  text-decoration: none;
 }
 
 
