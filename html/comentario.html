@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seccion de comentarios</title>
+    <link rel="stylesheet" href="/css/style_comentario.css" />
+    <link rel="shortcut icon" href="/img/favicon.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="#quienes_somos">¿Quienes somos?</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="arroz.html">Receta del mes</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <article>
+        <section class="comentario">
+            <h4>Seccion de comentarios</h4>
+            <form action="https://testapi.omarcardona.com/" target="_blank" method="post">
+                <input requerid class="campos"type="email" name="email" placeholder="Ingrese su correo electronico" minlength="1" maxlength="100">
+                <input requerid class="campos"type="text" name="nombreUsuario" placeholder="Ingrese su nombre de usuario" minlength="1" maxlength="100">
+                <textarea requerid class="campos" name="comentario" id="" cols="72" rows="10" placeholder="Ingrese su comentario" minlength="1" maxlength="1000"></textarea>
+                <input requerid class="campos"type="date" name="Fecha" placeholder="Ingrese la fecha actual">
+                <input requerid class="campos"type="text" name="nombreReceta" placeholder="Ingrese el nombre de la receta" minlength="1" maxlength="100">
+                <input requerid class="boton" type="submit" value="Enviar">
+            </form>          
+        </section>
+    </article>
+    <aside>
+    </aside>
+    <footer>
+        <div class="caja_quienes">
+            <center><h1 id="quienes_somos"><b>¿Quienes somos?</b></h1></center>
+            <p>
+                <b>Hola!</b> me llamo Juan, soy un estudiante de sistemas del
+                Tecnologico de Antioquia, actualmente curso 4to semestre, me gusta
+                mucho cocinar (no es cierto) asi que espero que disfrutes y aprendas
+                junto a mi mis recetas.
+            </p>
+        </div>
+        <div class="contacto" id="contacto">
+            <h1 id="Titulo"><b>Contacto</b></h1>
+            <ul>
+                <li><a href="https://www.instagram.com/trollface_smackhead/?hl=es" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/gmail.net21/videos/never-gonna-give-you-up-rick-astley/471344660006374/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.tiktok.com/@erickpunk666/video/6989380633248337158?is_from_webapp=v1&item_id=6989380633248337158&lang=es" target="_blank">Tiktok</a></li>
+                <li><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU" target="_blank">Youtube</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSDZcmBkPxNJwGggqbkSsKBQQCnbcWXhTmPwpnrBGwFdJdzWWfHkXzDLnsnlvPkqsMdDjljx"
+                        target="_blank">Gmail</a></li>
+
+            </ul>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
